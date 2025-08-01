@@ -1,12 +1,10 @@
-function Contentwrapper({children, className}){
+function ContentWrapper({ children, className }) {
+  return (
 
-return (
-
-    <div className="sm:border sm:border-stone sm:rounded-md sm:w-[80%] p-4 m-4 max-h">
-     {children}   
+    <div className={`flex sm:border sm:border-stone-400 sm:rounded-3xl sm:w-[80%] p-4 m-4 h-screen`}>
+      {children}
     </div>
-)
-
+  );
 }
 
-export default Contentwrapper;
+export default ContentWrapper

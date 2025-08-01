@@ -1,7 +1,9 @@
+import { Table } from "lucide-react";
+
 function MusicEvents(){
     return(
 
-        <div>all Events</div>
+        <Table/>
     )
 }
 
